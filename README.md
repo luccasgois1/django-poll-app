@@ -32,7 +32,11 @@ Run the follow command:
 `python -m pip install Django`
 
 
-## Changing ip or port that server will run
+## Run Django Server
+
+### Run the command
+
+`python mysite\manage.py runserver`
 
 ### If you want to run the server on a different port run the follow command:
 
@@ -45,3 +49,10 @@ e.g. python mysite\manage.py runserver 8080
 `python mysite\manage.py runserver <ip_address>:<port_number>`
 
 e.g. python mysite\manage.py runserver 0.0.0.0:8000
+
+## Checklist of Steps
+
+- [ ] Initialize the Django project
+- [ ] Create the models and databases required for the aplication
+- [ ] Set the superuser in order to have access to admin page
+- [ ] Create the view part of the site
